@@ -1,12 +1,12 @@
 body{
     background:rgb(181, 104, 217) ;
     font-family: sans-serif;
+    margin: 0;
+}
+.header{
     display: flex;
     align-items: flex-start;
     justify-items: flex-end;
-    margin: 0;
-    
-    
 }
 .nav-bar{
     background-color: rgb(233, 226, 134);
@@ -14,11 +14,9 @@ body{
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    flex: 3;
+    flex: 4;
     margin: 0;
     padding-right: 8px;
-    padding: -5px;
-    
 }
 .logo{
     background-color: orange;
@@ -26,13 +24,11 @@ body{
     padding: 25px;
     display: flex;
     flex: 1;
-    
-
+    height: 10px;
 }
 ul{
     list-style-type: none;
     display: flex;
-    
  }
  a{
     text-decoration: none;
@@ -43,6 +39,6 @@ ul{
  }
  .nav-bar a:hover{
     background-color: rgb(213, 162, 236);
-    padding: 5px 10px;
-    border-radius: 5px 10px;
+    padding: 5px 5px;
+    border-radius: 5px 5px;
  }
