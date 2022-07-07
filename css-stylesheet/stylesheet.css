@@ -1,3 +1,31 @@
 body{
-    background: rgb(227, 101, 230);
+    background:rgb(235, 157, 237) ;
+    font-family: sans-serif;
+    
 }
+.nav-bar{
+    height: 50px;
+    background-color: rgb(227, 101, 230);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+ }
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ .button{
+    padding: 16px;
+    background-color: pink;
+    border: solid 3px black;
+    border-radius: 10px;
+ }
