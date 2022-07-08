@@ -56,25 +56,28 @@ a{
     margin: 0;
     width: 100%;
     flex-basis: 100%;
-    justify-content: center;
-    gap: 1em;
+    justify-content: flex-end;
 }
 .content-col{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:50%;
     border-bottom: solid 2px gold;
     border-left: solid 2px gold;
     border-right: solid 2px gold;
     padding: 2%;
+    
     
 }
 .main-pic img{
     display: flex;
     width:100%;
     align-self: center;
+    padding: 10%;
+    border-bottom: solid 2px gold;
+    border-right: solid 2px gold;
 }
 .about{
     font-size: 48px;
