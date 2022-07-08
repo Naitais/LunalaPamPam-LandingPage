@@ -8,6 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     background-color: blueviolet;
+    font-weight: bold;
 }
 #logo{
     border-radius: 50%;
@@ -16,10 +17,10 @@ body{
 .header{
     list-style-type: none;
     display: flex;
-    background-color: red;
+    background-color: rgb(159, 47, 173);
     align-items: center;
-    justify-content: space-around;
-
+    border: 2px solid gold;
+    
 }
 .header>*{
     flex: 0 1 100%;
@@ -29,21 +30,24 @@ a{
 }
 #logo{
     display: flex;
-    justify-content: center;
 }
 ul{
     list-style-type: none;
     display: flex;
     align-items: center;
-    background-color: white;
     flex-flow: row wrap;
     text-align: center;
     justify-content: center;
     gap: 1em;
-    
 }
 ul>*{
     flex-basis: 20%;
-    background-color: aquamarine;
-    
+    border-radius: 50%;
+    align-items: center;
+}
+a{
+    color: white;
+}
+.button a:hover{
+    color:gold
 }
