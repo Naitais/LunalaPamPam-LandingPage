@@ -38,7 +38,7 @@ ul{
     flex-flow: row wrap;
     text-align: center;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
 }
 ul>*{
     flex-basis: 15%;
@@ -47,6 +47,9 @@ ul>*{
 }
 a{
     color: white;
+    background-color: rgb(248, 170, 170);
+    padding: 2px;
+    border-radius: 5px;
 }
 .button a:hover{
     color:gold
