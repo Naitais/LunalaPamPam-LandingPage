@@ -68,6 +68,8 @@ a{
     border-bottom: solid 2px gold;
     border-left: solid 2px gold;
     border-right: solid 2px gold;
+    padding: 2%;
+    
 }
 .main-pic img{
     display: flex;
