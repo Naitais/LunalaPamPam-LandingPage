@@ -41,7 +41,7 @@ ul{
     gap: 1em;
 }
 ul>*{
-    flex-basis: 20%;
+    flex-basis: 15%;
     border-radius: 50%;
     align-items: center;
 }
