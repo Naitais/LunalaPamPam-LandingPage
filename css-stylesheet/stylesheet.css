@@ -12,7 +12,7 @@ body{
     display: flex;  
 }
 .header div{
-    background: rgb(107, 8, 153);
+    background: hsl(281, 64%, 57%);
     display: flex;
     justify-content: space-evenly;
 }
@@ -52,12 +52,14 @@ ul{
  }
  .section1{
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    background: rgb(107, 8, 153);
+    text-align: justify;
+    background: hsl(281, 64%, 57%);
     color: white;
-    padding-top: 30px;
+    gap: 32px;
+    flex: 1 0 auto;
+    padding: 0 100px;
+    
  }
  .about{
     font-weight: bolder;
@@ -69,11 +71,7 @@ ul{
     justify-content: center;
     align-items: center;
  }
- .content-col{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
- }
+ 
  .content{
     display: flex;
     justify-content: center;
@@ -94,5 +92,5 @@ ul{
     align-items: center;
     display: flex;
     margin-top: auto;
-    background: goldenrod;
+    background: hsl(281, 64%, 57%);
  }
