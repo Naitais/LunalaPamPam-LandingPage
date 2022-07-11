@@ -45,8 +45,8 @@ ul{
     gap: 2em;
 }
 ul>*{
-    flex-basis: 15%;
     align-items: center;
+    flex: 1 1 15%;
 }
 a{
     color: rgb(223 22 130);
@@ -60,6 +60,7 @@ a{
     width: 100%;
     flex-basis: 100%;
     justify-content: flex-end;
+    background-color: rgb(246 218 223);
 }
 .content-col{
     display: flex;
@@ -69,14 +70,13 @@ a{
     width:100%;
     padding: 2%;
     background-color: rgb(246 218 223);
-    
-    
 }
 .main-pic img{
     display: flex;
     width:100%;
     align-self: center;
     height: 100%;
+    
 }
 .about{
     font-size: 48px;
@@ -92,20 +92,25 @@ a{
 .picture img{
     width: 100%;
     height: 100%;
+    padding: 10%;
 }
 .section2{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.content div{
-    display: flex;
-    
+.content >*{
     flex-direction: column;
+    flex: 1 1 16%;
 }
 .content{
     display: flex;
-
-    flex-direction: row;
-
+    flex-wrap: wrap;
+    gap: 3em;
+}
+.text-title{
+    font-size: 36px;
+}
+.section{
+    padding: 10%;
 }
