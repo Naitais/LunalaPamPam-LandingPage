@@ -12,7 +12,6 @@ body{
 }
 .header div{
     display: flex;
-    justify-content: end;
 }
 #logo{
     border-radius: 100%;
@@ -76,12 +75,16 @@ a{
     width:100%;
     align-self: center;
     height: 100%;
+    border-radius: 25px;
+    border: 5px solid rgb(223 22 130);
     
 }
 .about{
+ 
     font-size: 48px;
     font-weight: bold;
     color: rgb(223 22 130);
+
 }
 .text{
     text-align: justify;
@@ -92,25 +95,40 @@ a{
 .picture img{
     width: 100%;
     height: 100%;
-    padding: 10%;
+    border-radius: 25px;
+    border: 5px solid rgb(223 22 130);
 }
 .section2{
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .content >*{
     flex-direction: column;
     flex: 1 1 16%;
+    justify-content: center;
+    align-items: center;
 }
 .content{
     display: flex;
     flex-wrap: wrap;
-    gap: 3em;
+    gap: 3em 4em;
 }
 .text-title{
     font-size: 36px;
+    padding-bottom: 5%;
+    text-align: center;
+    color: rgb(223 22 130);
 }
 .section{
-    padding: 10%;
+    padding: 5%;
+}
+.picture span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(223 22 130);
 }
