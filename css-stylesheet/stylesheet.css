@@ -8,7 +8,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     font-weight: bold;
-    
 }
 .header div{
     display: flex;
@@ -70,6 +69,7 @@ a{
     flex-basis: 100%;
     justify-content: flex-end;
     background-color: rgb(246 218 223);
+    border-bottom: 2px solid rgb(223 22 130);
 }
 .content-col{
     display: flex;
@@ -114,6 +114,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid rgb(223 22 130);
 }
 .content >*{
     flex-direction: column;
@@ -141,4 +142,23 @@ a{
     align-items: center;
     text-align: center;
     color: rgb(223 22 130);
+}
+.section3{
+    background-color: rgb(234, 128, 168);
+    color: white;
+    font-size: 36px;
+}
+#firma{
+    font-weight: bolder;
+    font-size: 26px;
+    justify-content: end;
+    display: flex;
+    align-self: end;
+}
+#footer{
+    color: rgb(223 22 130);
+    padding: 1% 0;
+    text-align: center;
+    border-top: 2px solid rgb(223 22 130);
+    border-bottom: 2px solid rgb(223 22 130);
 }
